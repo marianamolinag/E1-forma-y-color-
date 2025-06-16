@@ -11,22 +11,23 @@ background(245, 245, 220);
 //arc( x, y,   w,   h, start,   stop,     mode)   
 
 //SUPERIOR IZQUIERDA
-arc(500, 320, 200, 200, PI, PI + HALF_PI, PIE); 
+arc(500, 320, 250, 200, PI, PI + HALF_PI, PIE); 
 
 //SUPERIOR DERECHA 
  
-arc(500, 320, 200, 200,  PI + HALF_PI, TWO_PI, PIE);
+arc(500, 320, 250, 200,  PI + HALF_PI, TWO_PI, PIE);
 
 //INFERIOR IZQUIERDA 
-arc(500, 320, 200, 220, HALF_PI, PI, PIE);
+arc(500, 320, 250, 220, HALF_PI, PI, PIE);
 
 //INFERIOR DERECHA
-arc(500, 320, 200, 220, 0,HALF_PI, PIE);
+arc(500, 320, 250, 220, 0,HALF_PI, PIE);
 
 //2. ojos
 // ojo izquierdo
-arc(450, 320, 85, 50, 0, PI, CHORD); 
+arc(440, 320, 95, 50, 0, PI, CHORD); 
  // ojo derecho
- arc(550, 320, 85, 50, 0, PI, CHORD );
+ arc(560, 320, 95, 50, 0, PI, CHORD );
 
-//MIAU
+//3. nariz
+triangle(470, 350, 530, 350, 500, 375);
