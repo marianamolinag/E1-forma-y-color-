@@ -49,10 +49,7 @@ noStroke();
 fill(rosado);
 ellipse(850, 250, 150, 150);
 fill(azul);
-ellipse(100, 650, 120, 120);
-fill(rosado);
-rect(180, 250, 20, 4);
-rect(188, 240, 4, 20);
+
 
 stroke(255);  
 strokeWeight(2);
